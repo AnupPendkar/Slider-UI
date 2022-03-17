@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Space+Mono:wght@700&display=swap");
+    </style>
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+  </head>
+  <body>
+    <main class="container">
+      <div class="slides">
+        <section class="img-section">
+          <div class="author-img-container">
+            <img
+              src="./images/image-tanya.jpg"
+              alt="Tanya Image"
+              class="author-img"
+            />
+            <img
+              src="./images/image-john.jpg"
+              alt="John Image"
+              class="author-img"
+            />
+            <div class="arrow-container">
+              <img
+                class="prev-arrow"
+                src="./images/icon-prev.svg"
+                alt="previous arrow"
+              />
+              <img
+                class="next-arrow"
+                src="./images/icon-next.svg"
+                alt="next arrow"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="info-section">
+          <div class="slide">
+            <p class="author-feedback">
+              “ I’ve been interested in coding for a while but never taken the
+              jump, until now. I couldn’t recommend this course enough. I’m now
+              in the job of my dreams and so excited about the future. ”
+            </p>
+            <div class="name-role-container">
+              <p class="author-name">Tanya Sinclair</p>
+              <p class="author-profession">UX Engineer</p>
+            </div>
+          </div>
+          <div class="slide">
+            <p class="author-feedback">
+              “ If you want to lay the best foundation possible I’d recommend
+              taking this course. The depth the instructors go into is
+              incredible. I now feel so confident about starting up as a
+              professional developer. ”
+            </p>
+            <div class="name-role-container">
+              <p class="author-name">John Tarkpor Junior</p>
+              <p class="author-profession">Front-end Developer</p>
+            </div>
+          </div>
+          <img src="./images/pattern-quotes.svg" alt="" />
+        </section>
+        <img class="background-curve" src="./images/pattern-curve.svg" alt="" />
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
